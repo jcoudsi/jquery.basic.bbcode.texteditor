@@ -2,7 +2,7 @@
 
 Features
 --------
-This text editor provides the following options :
+This text editor provides the following options using some BBCode tags :
 
 - Text format :
   - bold
@@ -28,7 +28,6 @@ This text editor provides the following options :
 
 - List
 
-
 Browser support
 ---------------
 Tested with :
@@ -46,3 +45,7 @@ jQuery Core v1.10.x or higher required.
   - jQuery Caret (https://github.com/acdvorak/jquery.caret)
   - jQuery Media Outlet (https://github.com/jcoudsi/jquery.media.outlet)
   - Font Awesome (http://fortawesome.github.io/Font-Awesome/) 
+
+Documentation
+=============
+Coming soon
