@@ -1,0 +1,16 @@
+/** jQuery Text Editor plugin CSS file */
+
+.basic_bbcode_text_editor_appareance_buttons, .basic_bbcode_text_editor_insertion_buttons, .basic_bbcode_text_editor_position_buttons, .basic_bbcode_text_editor_miscellaneous_buttons {
+    display: inline-block;
+    margin-right: 20px;
+}
+
+.basic_bbcode_text_editor_buttons i {
+    background-color: #DBDEFD;
+    padding: 5px;
+    border: 1px solid grey;
+}
+
+.basic_bbcode_text_editor_buttons i:hover {
+    background-color: #98A2FA;
+}
