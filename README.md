@@ -92,7 +92,7 @@ $('.texteditor').textEditor();
 Overview
 --------
 
-Text formatting buttons :
+### Text formatting buttons :
 
 ![alt tag](http://s8.postimg.org/6wa2t0f79/2014_11_16_03_08_58_Administration.png)
 
@@ -110,7 +110,7 @@ In order :
 These BBCode tags can be applied on the current text selection, or at the cursor position if nothing is selected.
 Clicking on the text size or the color picker buttons makes a specific panel appear. An other click makes the specific panel disapear.
 
-Add extra content buttons :
+### Add extra content buttons :
 
 ![alt tag](http://s13.postimg.org/l4t4aejkz/2014_11_16_03_10_22_Administration.png)
 
@@ -122,7 +122,7 @@ In order :
 The URL and e-mail BBCode tags can be applied on the current text selection, or at the cursor position if nothing is selected.
 Clicking on these three buttons makes a specific panel appear. An other click makes the specific panel disapear.
 
-Text positioning buttons :
+### Text positioning buttons :
 
 ![alt tag](http://s28.postimg.org/5ing7eryh/2014_11_16_03_10_33_Administration.png)
 
@@ -134,7 +134,7 @@ In order :
 
 These BBCode tags can be applied on the current text selection, or at the cursor position if nothing is selected.
 
-List button :
+### List button :
 
 ![alt tag](http://s4.postimg.org/5f74zg5k9/2014_11_16_03_10_37_Administration.png)
 
