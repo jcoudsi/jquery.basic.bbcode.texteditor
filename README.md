@@ -50,10 +50,39 @@ Documentation
 =============
 `.textEditor(options)`
 --------------------
-Turns the textarea inside the HTML element into a BBCode text editor
+Turns the textarea inside the HTML element into a BBCode text editor.
+The textarea element must be the immediate children of the used container.
+
+OK :
+
+```html
+<div class="texteditor">
+  <textarea>Some text</texarea>
+</div>
+```
+
+```javascript
+$('.texteditor').textEditor();
+```
+
+Not OK :
+
+```html
+<div class="texteditor">
+  <div class="subdiv">
+    <textarea>Some text</texarea>
+  </div>
+</div>
+```
+
+```javascript
+$('.texteditor').textEditor();
+```
 
 Options
 -------
 
 ### uploadDir
 The name of the directory where the media will be uploaded on your server, when the media upload functionality of the text editor is used. If it isn't specified, the file will be uploaded in the directory where the PHP upload script is executed.
+
+![alt tag](http://www.bonjourdefrance.com/blog/etudier-en-france/wp-content/uploads/2012/04/test-201.gif)
