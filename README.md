@@ -48,4 +48,12 @@ jQuery Core v1.10.x or higher required.
 
 Documentation
 =============
-Coming soon
+`.textEditor(options)`
+--------------------
+Turns the textarea inside the HTML element into a BBCode text editor
+
+Options
+-------
+
+### uploadDir
+The name of the directory where the media will be uploaded on your server, when the media upload functionality of the text editor is used. If it isn't specified, the file will be uploaded in the directory where the PHP upload script is executed.
