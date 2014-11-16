@@ -70,7 +70,7 @@ Styling buttons zones :
     
     /* .basic_bbcode_text_editor_appareance_buttons : text formating buttons zone
        .basic_bbcode_text_editor_insertion_buttons : add extra content buttons zone
-       .basic_bbcode_text_editor_position_buttons : text positioning buttons zone
+       .basic_bbcode_text_editor_position_buttons : text alignment buttons zone
        .basic_bbcode_text_editor_miscellaneous_buttons : list button zone 
     */
     
