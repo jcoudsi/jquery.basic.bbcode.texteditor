@@ -58,6 +58,43 @@ Options
 ### uploadDir
 The name of the directory where the media will be uploaded on your server, when the media upload functionality of the text editor is used. If it isn't specified, the file will be uploaded in the directory where the PHP upload script is executed.
 
+Styling
+-------
+
+The CSS file can be customised.
+
+Styling buttons zones :
+
+```css
+.basic_bbcode_text_editor_appareance_buttons, .basic_bbcode_text_editor_insertion_buttons, .basic_bbcode_text_editor_position_buttons, .basic_bbcode_text_editor_miscellaneous_buttons {
+    
+    /* .basic_bbcode_text_editor_appareance_buttons : text formating buttons zone
+       .basic_bbcode_text_editor_insertion_buttons : add extra content buttons zone
+       .basic_bbcode_text_editor_position_buttons : text positioning buttons zone
+       .basic_bbcode_text_editor_miscellaneous_buttons : list button zone 
+    */
+    
+    ...
+}
+```
+
+Styling buttons :
+
+```css
+.basic_bbcode_text_editor_buttons i {
+  ...
+}
+```
+
+Styling buttons hover
+
+```css
+.basic_bbcode_text_editor_buttons i:hover {
+  ...
+}
+```
+
+
 Usage
 =====
 
@@ -90,9 +127,9 @@ $('.texteditor').textEditor();
 ```
 
 Overview
---------
+=======
 
-### Text formatting buttons :
+### Text formating buttons :
 
 ![alt tag](http://s8.postimg.org/6wa2t0f79/2014_11_16_03_08_58_Administration.png)
 
