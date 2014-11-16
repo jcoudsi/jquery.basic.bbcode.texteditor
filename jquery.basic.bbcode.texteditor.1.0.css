@@ -1,4 +1,6 @@
-/** jQuery Text Editor plugin CSS file */
+/* jQuery Basic Text Editor Plugin - v1.0 - 2014-07-11
+ * https://github.com/jcoudsi/jquery.basic.bbcode.texteditor
+ * Copyright (c) 2014 Julien Coudsi; Licensed MIT */
 
 .basic_bbcode_text_editor_appareance_buttons, .basic_bbcode_text_editor_insertion_buttons, .basic_bbcode_text_editor_position_buttons, .basic_bbcode_text_editor_miscellaneous_buttons {
     display: inline-block;

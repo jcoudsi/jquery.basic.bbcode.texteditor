@@ -1,5 +1,5 @@
-/*! jQuery Basic Text Editor Plugin - v1.0 - 2014-07-11
- * https://github.com/jcoudsi/jquery.media.outlet
+/* jQuery Basic Text Editor Plugin - v1.0 - 2014-07-11
+ * https://github.com/jcoudsi/jquery.basic.bbcode.texteditor
  * Copyright (c) 2014 Julien Coudsi; Licensed MIT */
 
 (function($)
