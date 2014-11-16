@@ -138,16 +138,5 @@ These BBCode tags can be applied on the current text selection, or at the cursor
 
 ![alt tag](http://s4.postimg.org/5f74zg5k9/2014_11_16_03_10_37_Administration.png)
 
-Usage example :
-
-```html
-[list]
-element 1
-element 2
-element 3
-element 4
-[/list]
-```
-
 This BBCode tags can be applied on the current text selection, or at the cursor position if nothing is selected.
 
