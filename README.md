@@ -51,9 +51,19 @@ Documentation
 `.textEditor(options)`
 --------------------
 Turns the textarea inside the HTML element into a BBCode text editor.
+
+Options
+-------
+
+### uploadDir
+The name of the directory where the media will be uploaded on your server, when the media upload functionality of the text editor is used. If it isn't specified, the file will be uploaded in the directory where the PHP upload script is executed.
+
+Usage
+=====
+
 The textarea element must be the immediate children of the used container.
 
-OK :
+Working example :
 
 ```html
 <div class="texteditor">
@@ -65,7 +75,7 @@ OK :
 $('.texteditor').textEditor();
 ```
 
-Not OK :
+No working example :
 
 ```html
 <div class="texteditor">
@@ -79,10 +89,15 @@ Not OK :
 $('.texteditor').textEditor();
 ```
 
-Options
--------
+Overview
+--------
 
-### uploadDir
-The name of the directory where the media will be uploaded on your server, when the media upload functionality of the text editor is used. If it isn't specified, the file will be uploaded in the directory where the PHP upload script is executed.
+![alt tag](http://s1.postimg.org/7lgllbmtr/2014_11_16_03_05_44_Administration.png)
 
-![alt tag](http://www.bonjourdefrance.com/blog/etudier-en-france/wp-content/uploads/2012/04/test-201.gif)
+Text formatting buttons :
+
+![alt tag](http://s8.postimg.org/6wa2t0f79/2014_11_16_03_08_58_Administration.png)
+
+
+
+
