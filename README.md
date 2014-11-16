@@ -92,12 +92,62 @@ $('.texteditor').textEditor();
 Overview
 --------
 
-![alt tag](http://s1.postimg.org/7lgllbmtr/2014_11_16_03_05_44_Administration.png)
-
 Text formatting buttons :
 
 ![alt tag](http://s8.postimg.org/6wa2t0f79/2014_11_16_03_08_58_Administration.png)
 
+In order :
+- bold
+- italic
+- underline
+- text size (pixels)
+- superscript
+- subscript
+- color picker to set the text color (using jQuery Color Picker plugin)
+- uppercase
+- lowercase
 
-<i class="fa fa-bold"></i>
+These BBCode tags can be applied on the current text selection, or at the cursor position if nothing is selected.
+Clicking on the text size or the color picker buttons makes a specific panel appear. An other click makes the specific panel disapear.
+
+Add extra content buttons :
+
+![alt tag](http://s13.postimg.org/l4t4aejkz/2014_11_16_03_10_22_Administration.png)
+
+In order :
+- Add an URL (with target option)
+- Add an e-mail link
+- Add a media outler (using jQuery Media Outlet plugin)
+
+The URL and e-mail BBCode tags can be applied on the current text selection, or at the cursor position if nothing is selected.
+Clicking on these three buttons makes a specific panel appear. An other click makes the specific panel disapear.
+
+Text positioning buttons :
+
+![alt tag](http://s28.postimg.org/5ing7eryh/2014_11_16_03_10_33_Administration.png)
+
+In order :
+- left
+- center
+- right
+- justify
+
+These BBCode tags can be applied on the current text selection, or at the cursor position if nothing is selected.
+
+List button :
+
+![alt tag](http://s4.postimg.org/5f74zg5k9/2014_11_16_03_10_37_Administration.png)
+
+Usage example :
+
+```html
+[list]
+element 1
+element 2
+element 3
+element 4
+[/list]
+```
+
+This BBCode tags can be applied on the current text selection, or at the cursor position if nothing is selected.
 
