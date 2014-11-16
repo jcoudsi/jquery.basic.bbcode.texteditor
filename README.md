@@ -99,5 +99,5 @@ Text formatting buttons :
 ![alt tag](http://s8.postimg.org/6wa2t0f79/2014_11_16_03_08_58_Administration.png)
 
 
-
+<i class="fa fa-bold"></i>
 
