@@ -48,4 +48,132 @@ jQuery Core v1.10.x or higher required.
 
 Documentation
 =============
-Coming soon
+`.textEditor(options)`
+--------------------
+Turns the textarea inside the HTML element into a BBCode text editor.
+
+Options
+-------
+
+### uploadDir
+The name of the directory where the media will be uploaded on your server, when the media upload functionality of the text editor is used. If it isn't specified, the file will be uploaded in the directory where the PHP upload script is executed.
+
+Styling
+-------
+
+The CSS file can be customised.
+
+Styling buttons zones :
+
+```css
+.basic_bbcode_text_editor_appareance_buttons, .basic_bbcode_text_editor_insertion_buttons, .basic_bbcode_text_editor_position_buttons, .basic_bbcode_text_editor_miscellaneous_buttons {
+    
+    /* .basic_bbcode_text_editor_appareance_buttons : text formating buttons zone
+       .basic_bbcode_text_editor_insertion_buttons : add extra content buttons zone
+       .basic_bbcode_text_editor_position_buttons : text alignment buttons zone
+       .basic_bbcode_text_editor_miscellaneous_buttons : list button zone 
+    */
+    
+    ...
+}
+```
+
+Styling buttons :
+
+```css
+.basic_bbcode_text_editor_buttons i {
+  ...
+}
+```
+
+Styling buttons hover
+
+```css
+.basic_bbcode_text_editor_buttons i:hover {
+  ...
+}
+```
+
+
+Usage
+=====
+
+The textarea element must be the immediate children of the used container.
+
+Working example :
+
+```html
+<div class="texteditor">
+  <textarea>Some text</texarea>
+</div>
+```
+
+```javascript
+$('.texteditor').textEditor();
+```
+
+No working example :
+
+```html
+<div class="texteditor">
+  <div class="subdiv">
+    <textarea>Some text</texarea>
+  </div>
+</div>
+```
+
+```javascript
+$('.texteditor').textEditor();
+```
+
+Overview
+=======
+
+### Text formating buttons :
+
+![alt tag](http://s8.postimg.org/6wa2t0f79/2014_11_16_03_08_58_Administration.png)
+
+In order :
+- bold
+- italic
+- underline
+- text size (pixels)
+- superscript
+- subscript
+- color picker to set the text color (using jQuery Color Picker plugin)
+- uppercase
+- lowercase
+
+These BBCode tags can be applied on the current text selection, or at the cursor position if nothing is selected.
+Clicking on the text size or the color picker buttons makes a specific panel appear. An other click makes the specific panel disapear.
+
+### Add extra content buttons :
+
+![alt tag](http://s13.postimg.org/l4t4aejkz/2014_11_16_03_10_22_Administration.png)
+
+In order :
+- Add an URL (with target option)
+- Add an e-mail link
+- Add a media outler (using jQuery Media Outlet plugin)
+
+The URL and e-mail BBCode tags can be applied on the current text selection, or at the cursor position if nothing is selected.
+Clicking on these three buttons makes a specific panel appear. An other click makes the specific panel disapear.
+
+### Text positioning buttons :
+
+![alt tag](http://s28.postimg.org/5ing7eryh/2014_11_16_03_10_33_Administration.png)
+
+In order :
+- left
+- center
+- right
+- justify
+
+These BBCode tags can be applied on the current text selection, or at the cursor position if nothing is selected.
+
+### List button :
+
+![alt tag](http://s4.postimg.org/5f74zg5k9/2014_11_16_03_10_37_Administration.png)
+
+This BBCode tags can be applied on the current text selection, or at the cursor position if nothing is selected.
+
